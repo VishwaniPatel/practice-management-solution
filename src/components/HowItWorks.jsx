@@ -8,7 +8,7 @@ export default function HowItWorks() {
 
         <div className="mx-auto max-w-2xl text-center">
           <span className="font-bold uppercase tracking-[0.18em] text-[#376D0E]">
-            Simple process
+            How We Work
           </span>
 
           <h2 className="mt-3 text-4xl font-black tracking-tight text-[#0B1E41] sm:text-5xl">
@@ -16,11 +16,12 @@ export default function HowItWorks() {
           </h2>
 
           <p className="mt-5 text-lg leading-8 text-slate-600">
-           Start with a conversation. We understand your workflow and build a solution around what your practice actually needs.
+            From understanding your workflow to launching your solution, we work
+            with you at every stage.
           </p>
         </div>
 
-        <div className="mt-14 grid gap-6 md:grid-cols-3">
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {steps.map(([number, title, text]) => (
             <div
               key={number}
